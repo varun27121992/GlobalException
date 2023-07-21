@@ -4,7 +4,7 @@ public class ExcepTryandCatch {
 	public static void main(String[] args) {
 		String[] a = { "car", "bike", "aeroplane", "rock" };
 		try {
-			System.out.println(a[0].charAt(5));
+			System.out.println(a[0].charAt(4));
 		} catch (ArrayIndexOutOfBoundsException e) {
 			e.printStackTrace();
 		} catch (IndexOutOfBoundsException f) {
